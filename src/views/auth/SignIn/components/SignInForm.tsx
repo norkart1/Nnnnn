@@ -43,8 +43,8 @@ const SignInForm = (props: SignInFormProps) => {
         control,
     } = useForm<SignInFormSchema>({
         defaultValues: {
-            username: 'ADMIN',
-            password: '123',
+            username: 'admin',
+            password: '12345',
         },
         resolver: zodResolver(validationSchema),
     })
